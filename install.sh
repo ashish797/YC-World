@@ -75,6 +75,18 @@ else
     echo "  ✓ AGENTS.md already has gstack reference"
 fi
 
+# Copy YC World workspace template
+WORKSPACE_DIR="${HOME}/.openclaw/ycworld"
+if [ ! -d "$WORKSPACE_DIR" ]; then
+    echo ""
+    echo "Creating YC World workspace..."
+    cp -r "$GSTACK_DIR/workspace-template" "$WORKSPACE_DIR"
+    echo "  ✓ YC World workspace created at $WORKSPACE_DIR"
+    echo "  ✓ CEO + 5 departments + company config"
+else
+    echo "  ✓ YC World workspace already exists"
+fi
+
 # Build browse binary if bun is available
 BROWSE_BIN="$GSTACK_DIR/browse/dist/browse"
 if [ ! -x "$BROWSE_BIN" ] && command -v bun >/dev/null 2>&1; then
