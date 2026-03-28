@@ -37,7 +37,7 @@ If not installed, proceed to Step 2.
 ### Step 2: Clone
 
 ```bash
-git clone --single-branch --depth 1 https://github.com/your-org/gstack-openclaw.git ~/.agents/skills/gstack-openclaw
+git clone --single-branch --depth 1 https://github.com/ashish797/YC-World.git ~/.agents/skills/gstack-openclaw
 ```
 
 ### Step 3: Install skills

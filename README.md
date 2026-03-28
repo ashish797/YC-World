@@ -94,12 +94,12 @@ Also works: "setup gstack", "get gstack skills", "add gstack for openclaw"
 ### Method 2: Terminal (technical)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/your-org/gstack-openclaw/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ashish797/YC-World/main/install.sh | bash
 ```
 
 Or clone manually:
 ```bash
-git clone --depth 1 https://github.com/your-org/gstack-openclaw.git ~/.agents/skills/gstack-openclaw
+git clone --depth 1 https://github.com/ashish797/YC-World.git ~/.agents/skills/gstack-openclaw
 cd ~/.agents/skills/gstack-openclaw && bash install.sh
 ```
 

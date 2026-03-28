@@ -1,13 +1,13 @@
 #!/bin/bash
 # gstack-openclaw installer — one command, non-destructive
-# Usage: curl -fsSL https://raw.githubusercontent.com/your-org/gstack-openclaw/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/ashish797/YC-World/main/install.sh | bash
 # Or: bash install.sh
 
 set -e
 
 SKILLS_DIR="${HOME}/.agents/skills"
 GSTACK_DIR="${SKILLS_DIR}/gstack-openclaw"
-REPO_URL="https://github.com/your-org/gstack-openclaw.git"
+REPO_URL="https://github.com/ashish797/YC-World.git"
 
 echo "=== gstack-openclaw installer ==="
 echo ""
